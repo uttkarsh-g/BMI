@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 html,
 body {
@@ -49,4 +50,8 @@ input[type='number'] {
   text-align: center;
 }
 #sub {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50px;
 }
