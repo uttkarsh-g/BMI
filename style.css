@@ -26,9 +26,10 @@ body {
 }
 
 form {
-  height: 80%;
+  height: 60%;
   padding: 20px;
   border-radius: 50px;
+  overflow: hidden;
 }
 #wc,
 #hc {
@@ -36,6 +37,7 @@ form {
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -45,6 +47,7 @@ input::-webkit-inner-spin-button {
 
 input[type='number'] {
   appearance: textfield;
+  width: 100px;
 }
 #s {
   text-align: center;
@@ -54,4 +57,19 @@ input[type='number'] {
   border: none;
   padding: 5px 10px;
   border-radius: 50px;
+}
+#result {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  #main {
+    width: 100%;
+    height: 100dvh;
+    border-radius: 0;
+  }
+  form {
+    height: 50%;
+  }
 }
