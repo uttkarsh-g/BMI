@@ -97,9 +97,3 @@ p {
     padding: 10px;
   }
 }
-
-@media (orientation: landscape) {
-  #wrapper {
-    height: fit-content;
-  }
-}
