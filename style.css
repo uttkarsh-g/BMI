@@ -63,9 +63,12 @@ p {
   margin-top: 20px;
   text-align: center;
 }
-#bmiTable {
-  margin: auto;
+#bmichart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 @media (max-width: 500px) {
   #main {
     width: 100%;
@@ -74,5 +77,21 @@ p {
   }
   form {
     height: 50%;
+  }
+}
+
+@media (max-height: 650px) {
+  #main {
+    width: 25rem;
+    height: 35rem;
+    border-radius: 50px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.392);
+    padding: 10px;
+  }
+}
+
+@media (orientation: landscape) {
+  #wrapper {
+    height: fit-content;
   }
 }
