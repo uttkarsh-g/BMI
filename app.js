@@ -11,5 +11,5 @@ const calc = () => {
 
 f.addEventListener('submit', (e) => {
   e.preventDefault();
-  r.innerText = calc().toFixed(1);
+  r.innerHTML = `${calc().toFixed(1)}  kg/m<sup>2</sup>`;
 });

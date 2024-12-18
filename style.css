@@ -52,16 +52,24 @@ input[type='number'] {
 #s {
   text-align: center;
 }
+label {
+  font-weight: 700;
+}
 #sub {
   outline: none;
-  border: none;
+  border: 1px solid black;
   padding: 5px 10px;
   border-radius: 50px;
+  font-weight: 700;
+}
+h3 {
+  text-align: center;
 }
 p {
   font-size: 15px;
   margin-top: 20px;
   text-align: center;
+  font-weight: 700;
 }
 #bmichart {
   display: flex;
